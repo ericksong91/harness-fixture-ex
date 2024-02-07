@@ -1,0 +1,11 @@
+joe:
+  first_name: Joe
+  last_name: Smith
+  email: joe@example.com
+  password: secret
+
+susan:
+  first_name: Susan
+  last_name: Johnson
+  email: susan@example.com
+  password: supersecret
