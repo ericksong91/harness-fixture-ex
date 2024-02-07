@@ -1,6 +1,7 @@
 require 'rails_helper'
+require './test/models/user_test.rb'
 
-describe User do
+describe UserTest do
   describe '#username' do
     it 'returns the full name of the user' do
       user = users(:joe)
@@ -8,3 +9,5 @@ describe User do
     end
   end
 end
+
+# old way?

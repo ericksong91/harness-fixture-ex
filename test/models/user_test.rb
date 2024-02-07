@@ -1,13 +1,9 @@
 require "test_helper"
 
 class UserTest < ActiveSupport::TestCase
-  joe:
-    username: Joe
-    bio: asdf
-    password: secret
+  test "users" do
+    user = users(:one)
+    assert_equal("Joe", user.username, ["Expected equals"])
+  end
 
-susan:
-  first_name: Susan
-  bio: asdf
-  password: supersecret
 end
